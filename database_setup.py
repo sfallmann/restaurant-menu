@@ -27,7 +27,7 @@ class MenuItem(Base):
     restaurant_id = Column(Integer, ForeignKey('restaurant.id'))
     restaurant = relationship(Restaurant)
 
-engine = create)engine('sqlite:///restaurant.db')
+engine = create_engine('sqlite:///restaurant.db')
 
 
 
